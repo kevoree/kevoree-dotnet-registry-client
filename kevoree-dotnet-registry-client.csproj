@@ -158,7 +158,6 @@
   <ItemGroup>
     <Compile Include="RegistryClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistryClientTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
