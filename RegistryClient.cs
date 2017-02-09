@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using java.lang;
+
 
 namespace Org.Kevoree.Registry.Client
 {
@@ -18,7 +20,7 @@ namespace Org.Kevoree.Registry.Client
 
         public async Task publishContainerRoot(ContainerRoot containerRoot)
         {
-            var saver = new org.kevoree.pmodeling.api.json.JSONModelSerializer();
+			var saver = new org.kevoree.modeling.api.json.JSONModelSerializer();
             string json = saver.serialize(containerRoot);
             using (var client = new HttpClient())
             {

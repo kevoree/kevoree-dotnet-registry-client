@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Org.Kevoree.Nuget.CLient</id>
-    <version>1.0.0</version>
+    <version>5.4.0</version>
     <title>Kevoree Registry Client</title>
     <authors>Manuel Leduc</authors>
     <owners>Kevoree</owners>
@@ -16,14 +16,15 @@
     <tags>Kevoree Registry Client</tags>
 
     <dependencies>
-        <dependency id="IKVM" version="[7.2.4630.5]" />
+        <dependency id="IKVM" version="8.1.5717.0" />
+        <dependency id="IKVM.OpenJDK.Core" version="8.1.5717.0" />
         <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
-        <dependency id="Newtonsoft.Json" version="6.0.4" />
-        <dependency id="NUnit" version="2.6.4" />
-        <dependency id="Org.Kevoree.Core.Model" version="5.2.7" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+        <dependency id="NUnit" version="3.6.0" />
+        <dependency id="Org.Kevoree.Core.Model" version="5.4.5" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="bin/Release/kevoree-dotnet-registry-client.dll" target="lib/net40/kevoree-dotnet-registry-client.dll" />
+  <files>	
+    <file src="bin/Release/kevoree-dotnet-registry-client.dll" target="lib/net45/kevoree-dotnet-registry-client.dll" />
   </files>
 </package>
