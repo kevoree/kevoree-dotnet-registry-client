@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Org.Kevoree.Nuget.CLient</id>
-    <version>5.4.0</version>
+    <version>5.4.1</version>
     <title>Kevoree Registry Client</title>
     <authors>Manuel Leduc</authors>
     <owners>Kevoree</owners>
@@ -21,7 +21,7 @@
         <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.3" />
         <dependency id="Newtonsoft.Json" version="9.0.1" />
         <dependency id="NUnit" version="3.6.0" />
-        <dependency id="Org.Kevoree.Core.Model" version="5.4.5" />
+        <dependency id="Org.Kevoree.Core.Model" version="5.4.9" />
     </dependencies>
   </metadata>
   <files>	
